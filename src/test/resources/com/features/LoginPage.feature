@@ -1,4 +1,4 @@
-Feature: This feature file contains the various features of the login page
+Feature: This feature file contains test scenario for T-shirt order and verifying it in order history
 
   Background: 
     Given User is on the login page
@@ -7,12 +7,21 @@ Feature: This feature file contains the various features of the login page
     When User observe the title of the page
     Then Login page title should display "Login - My Store"
 
-  Scenario: As a user I want to validate that forget password link should display
-    Then Login page should display forget password link
-
   Scenario: As a user I want to login with correct credentials
     When User enters "hemanshutestuser@gmail.com" as a username
     And Enter "Password@1" as a password
     And Click on login button
     Then Home page should display
     And Home page title should be "My account - My Store"
+    Then Click T-shirts section
+    And Select Faded T-shirt
+    Then Add the T-shirt in cart
+    Then Add the T-shirt in cart
+    Then Proceed to checkout
+#    And Proceed to checkout
+#    And Proceed to checkout
+#    Then Agree term and conditions
+#    And Proceed to checkout
+#    Then Make Bank wire Payment
+#    When User observe the title of order page
+#    Then Order page title should be "Order confirmation - My store"
