@@ -1,7 +1,7 @@
 package stepdefinitions;
 import com.pages.OrderPage;
 import org.junit.Assert;
-
+import java.util.concurrent.TimeUnit;
 import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
 
@@ -30,13 +30,26 @@ public class OrderPageSteps {
     }
 
     @When("Add the T-shirt in cart")
-    public void addToCart() {
+    public void addToCart() throws InterruptedException {
         orderPage.addToCart();
+        //fluent wait to be implemented later
+        Thread.sleep(3000);
     }
 
     @Then("Proceed to checkout")
-    public void proceedToCheckout() {
+    public void proceedToCheckout() throws InterruptedException {
         orderPage.proceedToCheckout();
+        Thread.sleep(3000);
+        orderPage.proceedToCheckout2();
+        Thread.sleep(3000);
+        orderPage.proceedToCheckout3();
+    }
+
+    @Then("Proceed to final checkout")
+    public void proceedToFinalCheckout() throws InterruptedException {
+        orderPage.proceedToCheckout4();
+        Thread.sleep(3000);
+
     }
 
     @Then("Agree term and conditions")
@@ -45,8 +58,14 @@ public class OrderPageSteps {
     }
 
     @Then("Make Bank wire Payment")
-    public void paymentByBank() {
+    public void paymentByBank() throws InterruptedException {
         orderPage.paymentByBank();
+        Thread.sleep(3000);
+    }
+
+    @Then("User confirms the order")
+    public void confirmOrder() {
+        orderPage.confirmOrder();
     }
 
     @Then("Order page title should be {string}")

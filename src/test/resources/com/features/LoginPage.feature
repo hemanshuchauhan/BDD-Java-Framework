@@ -16,12 +16,10 @@ Feature: This feature file contains test scenario for T-shirt order and verifyin
     Then Click T-shirts section
     And Select Faded T-shirt
     Then Add the T-shirt in cart
-    Then Add the T-shirt in cart
     Then Proceed to checkout
-#    And Proceed to checkout
-#    And Proceed to checkout
-#    Then Agree term and conditions
-#    And Proceed to checkout
+    Then Agree term and conditions
+    And Proceed to final checkout
+#    Then User confirms the order
 #    Then Make Bank wire Payment
 #    When User observe the title of order page
 #    Then Order page title should be "Order confirmation - My store"
