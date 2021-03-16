@@ -26,7 +26,6 @@ hs_err_pid*
 .idea
 .settings
 target
-test output
 test-output
 .classpath
 .project
