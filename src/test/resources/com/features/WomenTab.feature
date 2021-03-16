@@ -3,7 +3,7 @@ Feature: This feature file contains the test cases related to Women's tab
 Background:
 Given User is on My Account Page
 |username|password|
-|him.duke@gmail.com|Password@1|
+|hemanshutestuser@gmail.com|Password@1|
 
 @skipScenarioViaTag
 Scenario: Validating the Women Tab title

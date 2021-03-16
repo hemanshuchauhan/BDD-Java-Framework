@@ -1,69 +1,69 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "05be292e-39a4-4e3c-8ada-c5594da6d513",
-    "feature": "This feature file contains the account page test cases",
-    "scenario": "Verification of Account Page title",
-    "start": 1615856677434,
-    "group": 16,
+    "id": "6883b279-5272-40da-af21-406febe7a394",
+    "feature": "This feature file contains the various features of the login page",
+    "scenario": "As a user I want to login with correct credentials",
+    "start": 1615857125366,
+    "group": 15,
     "content": "",
     "tags": "",
-    "end": 1615856691802,
+    "end": 1615857132544,
     "className": "passed"
   },
   {
-    "id": "b9394d45-5a7a-461b-8fd0-f125ea628c45",
+    "id": "a17bd7f0-c61b-4032-9b8a-fe6752706db9",
+    "feature": "This feature file contains the various features of the login page",
+    "scenario": "As a user I want to validate login Page title",
+    "start": 1615857103709,
+    "group": 15,
+    "content": "",
+    "tags": "",
+    "end": 1615857117693,
+    "className": "passed"
+  },
+  {
+    "id": "42f52f99-23c4-45e8-b795-fdff51a5d869",
     "feature": "This feature file contains the test cases related to Women\u0027s tab",
     "scenario": "Verify the subcategories",
-    "start": 1615856677294,
+    "start": 1615857103556,
     "group": 17,
     "content": "",
     "tags": "@skipscenarioviahook,",
-    "end": 1615856689476,
+    "end": 1615857117434,
     "className": "skipped"
   },
   {
-    "id": "009f07f0-1e8e-45a6-9c8c-1ebb7a5437f9",
-    "feature": "This feature file contains the various features of the login page",
-    "scenario": "As a user I want to login with correct credentials",
-    "start": 1615856696441,
-    "group": 15,
-    "content": "",
-    "tags": "",
-    "end": 1615856704242,
-    "className": "passed"
-  },
-  {
-    "id": "33eba9e2-2b94-40eb-8f94-bc6d87dd3845",
+    "id": "f25d2d25-31be-4738-9686-89c4fe275496",
     "feature": "This feature file contains the various features of the login page",
     "scenario": "As a user I want to validate that forget password link should display",
-    "start": 1615856689586,
+    "start": 1615857117714,
     "group": 15,
     "content": "",
     "tags": "",
-    "end": 1615856696338,
+    "end": 1615857125335,
     "className": "failed"
   },
   {
-    "id": "68371053-6229-4c60-87f2-c7b56481a961",
-    "feature": "This feature file contains the various features of the login page",
-    "scenario": "As a user I want to validate login Page title",
-    "start": 1615856677435,
-    "group": 15,
-    "content": "",
-    "tags": "",
-    "end": 1615856689545,
-    "className": "passed"
-  },
-  {
-    "id": "425358b8-4a5d-4f71-8b7e-3ae86df83c34",
+    "id": "de4aac54-814a-42ff-9297-05a5334996fa",
     "feature": "This feature file contains the account page test cases",
     "scenario": "Verify the Account sections",
-    "start": 1615856691838,
+    "start": 1615857122783,
     "group": 16,
     "content": "",
     "tags": "",
-    "end": 1615856700862,
+    "end": 1615857130073,
+    "className": "passed"
+  },
+  {
+    "id": "0ba48016-a590-444b-9cbc-455b30512f00",
+    "feature": "This feature file contains the account page test cases",
+    "scenario": "Verification of Account Page title",
+    "start": 1615857103707,
+    "group": 16,
+    "content": "",
+    "tags": "",
+    "end": 1615857122751,
     "className": "passed"
   }
 ]);

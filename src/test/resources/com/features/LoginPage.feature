@@ -11,7 +11,7 @@ Feature: This feature file contains the various features of the login page
     Then Login page should display forget password link
 
   Scenario: As a user I want to login with correct credentials
-    When User enters "him.duke@gmail.com" as a username
+    When User enters "hemanshutestuser@gmail.com" as a username
     And Enter "Password@1" as a password
     And Click on login button
     Then Home page should display

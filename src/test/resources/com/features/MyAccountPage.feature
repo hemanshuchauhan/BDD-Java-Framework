@@ -4,7 +4,7 @@ Background:
 Given A user is on the login page
 And Enters credential and click on the login button
 |username|password|
-|him.duke@gmail.com|Password@1|
+|hemanshutestuser@gmail.com|Password@1|
 
 Scenario: Verification of Account Page title
 Then "My account - My Store" should be Account page title 
